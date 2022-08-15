@@ -6,7 +6,7 @@ import 'pages/location.dart';
 
 Future<void> main() async {
   runApp( MaterialApp(
-    initialRoute: 'home',
+    initialRoute: 'loading',
     routes: {
       'loading' : (context) => Loading(),
       'home': (context) => Home(),
